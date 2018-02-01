@@ -6,7 +6,7 @@ for file in ./tests/in/*; do
     file=${file/.in}
     xxd ${file/in/expected}.out > expectedxxd.temp
     echo 'Discrepancies between in and expected:'
-    diff testingxxd.temp expectedxxd.temp | echo
+    diff testingxxd.temp expectedxxd.temp
     rm *.temp
 done
 rm *.class
