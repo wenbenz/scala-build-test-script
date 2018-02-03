@@ -3,7 +3,11 @@ Runs scalac on *ALL* Scala source files in the current directory, pipes inputs f
 
 NOTE: This script uses xxd to compare files of outputs in binary!
 
-*Setup:
+*Usage:* ./buildTest <program>
+  <program> is the same name you would use as if you were running `scala <program>`.
+  May not have permissions to run, in which case, do `chmod u+x buildTest.sh`
+
+*Setup:*
 1. Copy script to working directory
 2. Create a folder called "tests" in your working directory
 3. Create a folder called "in" in your newly created "tests" folder
