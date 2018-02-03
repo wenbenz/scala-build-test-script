@@ -5,7 +5,7 @@ NOTE: This script uses xxd to compare files of outputs in binary!
 
 *Usage:* `./buildTest <program>`
 
-  <program> is the same name you would use as if you were running `scala <program>`.
+  `<program>` is the same name you would use as if you were running `scala <program>`.
   May not have permissions to run, in which case, do `chmod u+x buildTest.sh`
 
 *Setup:*
