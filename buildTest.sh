@@ -4,7 +4,7 @@ if [ $? -eq 0 ]; then
     if [ $# -eq 1 ]; then
         tests=*
     else
-        tests=${@:2}
+        tests=${@:2}.in
     fi
     for file in ./tests/in/$tests; do
         echo "Testing: $file"
